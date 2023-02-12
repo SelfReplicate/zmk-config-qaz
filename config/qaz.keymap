@@ -32,15 +32,15 @@
         default_layer {
             bindings = <
     &lt ESC Q      &kp W      &kp E       &kp R       &kp T  &kp Y  &kp U       &kp I       &kp O      &kp P
-    &mt TAB A &kp S &hm LCTRL D &hm LSHFT F &kp G  &kp H  &hm RSHFT J &kp K &kp L &kp RET
+    &kp A &kp S &hm LCTRL D &hm LSHFT F &kp G  &kp H  &hm RSHFT J &kp K &kp L &kp RET
     &kp Z                 &kp X       &kp C       &kp V  &kp B  &kp N       &kp M       &kp COMMA  &kp DOT
-    &kp LALT  &kp LGUI   &lt NUM_SYM SEMI      &kp SPACE    &kp BSPC   &lt NAV QMARK   &kp SQT    &kp FSLH
+    &kp LALT  &kp LGUI   &lt NAV SEMI      &kp SPACE    &kp BSPC   &lt NUM_SYM QMARK   &kp SQT    &kp FSLH
             >;
         };
         num_sym {
             bindings = <
     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5 &kp N6 &kp N7     &kp N8      &kp N9    &kp N0
-    &trans     &trans     &trans     &trans     &trans &trans &trans     &trans      &kp EQUAL &kp MINUS
+    &kp TAB     &trans     &trans     &trans     &trans &trans &trans     &trans      &kp EQUAL &kp MINUS
     &kp DEL               &none      &none      &none  &none  &none      &none       &none     &kp DOT
     &bootloader &reset    &none         &trans        &trans             &kp RET     &trans    &kp FSLH
             >;
@@ -49,9 +49,9 @@
     nav {
             bindings = <
     &bt BT_CLR &bt BT_NXT &bt BT_PRV &none       &none &none &none       &kp UP       &none     &kp BSPC
-    &trans     &trans     &trans     &trans      &none &none &kp LEFT    &kp DOWN     &kp RIGHT &none
+    &TAB     &trans     &trans     &trans      &none &none &kp LEFT    &kp DOWN     &kp RIGHT &none
     &none                 &none      &none       &none &none &none       &none        &none     &none
-    &none      &none      &none         &trans        &trans             &kp RET      &trans    &kp FSLH
+    &C_VOL_DN      &C_VOL_UP      &none         &trans        &trans             &kp RET      &trans    &kp FSLH
             >;
         };
     };
