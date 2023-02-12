@@ -34,7 +34,7 @@
     &lt ESC Q      &kp W      &kp E       &kp R       &kp T  &kp Y  &kp U       &kp I       &kp O      &kp P
     &lt TAB A &kp S &hm LCTRL D &hm LSHFT F &kp G  &kp H  &hm RSHFT J &kp K &kp L &kp RET
     &kp Z                 &kp X       &kp C       &kp V  &kp B  &kp N       &kp M       &kp COMMA  &kp DOT
-    &kp LALT  &kp LGUI   &kp NUM_SYM       &kp SPACE    &kp BSPC   &kp NAV   &kp SQT    &kp FSLH
+    &kp LALT  &kp LGUI   &hm NUM_SYM       &kp SPACE    &kp BSPC   &hm NAV   &kp SQT    &kp FSLH
             >;
         };
         num_sym {
